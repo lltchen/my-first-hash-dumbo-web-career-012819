@@ -24,9 +24,9 @@ def adding
                   "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
-  shipping_manifest.push["muskets" =>"2"]
+  shipping_manifest.push["muskets"] = "2"
 
-  shipping_manifest.push["gun powder" =>"4"]
+  shipping_manifest["gun powder"] = "4"
 
   shipping_manifest
 end
